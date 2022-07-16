@@ -5,13 +5,12 @@
   "description": "AngularJS Sample",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.8.x",
-    "angular-route": "1.8.x",
+    "angular": "^1.8.3",
+    "angular-route": "^1.8.3",
     "bootstrap": "3.3.x",
     "jquery": "3.3.x"
   },
   "devDependencies": {
-    "angular-mocks": "1.8.x",
     "cpx": "^1.5.0",
     "http-server": "^0.11.1"
   },
