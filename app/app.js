@@ -2,7 +2,6 @@
 
 // Define the `AngularJSSample` module
 angular.module('AngularJSSample', [
-  'ngAnimate',
   'ngRoute',
   'homeModule',
 ])
