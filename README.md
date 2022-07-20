@@ -4,7 +4,7 @@ AngularJS Sample
 
 ## 実行環境
 
-* Node.js 10.15.3
+* Node.js
 
 下記を参考に作成。
 
