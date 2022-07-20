@@ -5,6 +5,10 @@ angular.module('homeModule', [])
   .component('home', {
     templateUrl: 'home/home.template.html',
     controller: ['$scope',
+      /**
+       *
+       * @param {ng.IScope} $scope
+       */
       function HomeController($scope) {
 
         $scope.title = 'Home';
