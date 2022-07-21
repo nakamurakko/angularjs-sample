@@ -1,0 +1,21 @@
+<h2>{{title}}</h2>
+<div class="container-fluid">
+
+  <div class="row">
+    <input type="text"
+           ng-model="userName" />
+    <button ng-click="onAddUser($event)">追加</button>
+  </div>
+
+  <table>
+    <thead>
+      <th>一覧</th>
+    </thead>
+    <tbody>
+      <tr ng-repeat="user in users">
+        <td>{{user}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
