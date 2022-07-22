@@ -7,6 +7,7 @@
   "dependencies": {
     "angular": "^1.8.3",
     "angular-route": "^1.8.3",
+    "bootstrap": "^5.2.0",
     "jquery": "3.6.0"
   },
   "devDependencies": {
@@ -17,7 +18,7 @@
     "postinstall": "npm run copy-libs",
     "update-deps": "npm update",
     "postupdate-deps": "npm run copy-libs",
-    "copy-libs": "cpx \"node_modules/{angular,angular-*,jquery/dist}/**/*\" app/lib -C",
+    "copy-libs": "cpx \"node_modules/{angular,angular-*,bootstrap/dist,jquery/dist}/**/*\" app/lib -C",
     "prestart": "npm install",
     "start": "http-server ./app -a localhost -p 8000 -c-1"
   }
