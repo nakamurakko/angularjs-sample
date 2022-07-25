@@ -1,8 +1,15 @@
 <h2>{{title}}</h2>
+
 <div class="container-fluid">
-  <div>
-    <span>{{message}}</span>
+
+  <div class="row">
+    <div class="col-auto">
+      <span class="form-control-plaintext">{{message}}</span>
+    </div>
+    <div class="col-auto">
+      <button class="btn btn-primary"
+              ng-click="onChangeMessage($event)">あいさつ</button>
+    </div>
   </div>
-  <button class="btn btn-primary"
-          ng-click="onChangeMessage($event)">あいさつ</button>
+
 </div>
